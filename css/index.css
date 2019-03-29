@@ -181,7 +181,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   width: 100%;
 }
 .navigation nav a {
@@ -253,7 +252,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   cursor: pointer;
   height: 38px;
   font-size: 2rem;

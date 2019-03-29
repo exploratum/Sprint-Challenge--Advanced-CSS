@@ -1,9 +1,13 @@
 // Mixins Here
-.flex-layout(@justify, @align, @direction: row) {
+.flex-center() {
     display: flex;
-    justify-content: @justify;
-    align-items: @align;
-    flex-direction: @direction
+    justify-content: center;
+    align-items: center;
+}
+
+.img-resizing() {
+    width: 100%;
+    height: auto;
 }
 
 .button-custom(@width, @background, @color:black) {
@@ -12,7 +16,7 @@
     width: @width;
     color:@color;
 
-    .flex-layout(center, center);
+    .flex-center();
     cursor: pointer;
     height: 38px;
     font-size: 2rem;
