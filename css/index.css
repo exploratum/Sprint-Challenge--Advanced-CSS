@@ -268,3 +268,6 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home footer {
+  margin-bottom: 50px;
+}
