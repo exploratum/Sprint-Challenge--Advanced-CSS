@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive WEB site has different fixed layouts sizes that will be automatically selected according to the type of devices. The drawback is that it requires more work to create, mantain and evolve. The advantage is that it can be highly customized to each device (better user experience) and also is generally faster.
+A responsive Web Site is a site that has only one layout but this layout will change according to screen size. It will modify itself to fit the available real estate. This allows consistency across devices and is easier to implement.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A web site that is mobile first will be designed from the ground up to be working at its best for mobile devices. From there it can be made responsive to other formats.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% in the html tag represents 62.5% of the default font size of the browser. This is usually 16 pixel,  which means the default font size on the html page will be 62.5 % of 16 which is 10. This makes computation of font size easy since one rem, which is based on the html page font  size, will be 10pixels.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Preprocessing is writting styling code in a preprocessor language, which will be later translated into plain vanilla CSS. This has many adavantages for the developper such as an easier way to write code and it opens up different tools that facilitate coding
+
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?git
+
+Nesting seems the most useful feature of preprocessing. It makes the code so much more readable. Parametric mixin is the feature that could create readibility problems and possibly cause confusion. This is due to the number of parameters it can take (no limit) and the order the parameters need to be called. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

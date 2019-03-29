@@ -1,1 +1,24 @@
 // Mixins Here
+.flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-resizing() {
+    width: 100%;
+    height: auto;
+}
+
+.button-custom(@width, @background, @color:black) {
+
+    background-color: @background;
+    width: @width;
+    color:@color;
+
+    .flex-center();
+    cursor: pointer;
+    height: 38px;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
