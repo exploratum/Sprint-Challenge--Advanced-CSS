@@ -51,7 +51,7 @@ A web site that is mobile first will be designed from the ground up to be workin
 Preprocessing is writting styling code in a preprocessor language, which will be later translated into plain vanilla CSS. This has many adavantages for the developper such as an easier way to write code and it opens up different tools that facilitate coding
 
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?git
 
 Nesting seems the most useful feature of preprocessing. It makes the code so much more readable. Parametric mixin is the feature that could create readibility problems and possibly cause confusion. This is due to the number of parameters it can take (no limit) and the order the parameters need to be called. 
 
