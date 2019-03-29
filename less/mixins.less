@@ -5,3 +5,16 @@
     align-items: @align;
     flex-direction: @direction
 }
+
+.button-custom(@width, @background, @color:black) {
+
+    background-color: @background;
+    width: @width;
+    color:@color;
+
+    .flex-layout(center, center);
+    cursor: pointer;
+    height: 38px;
+    font-size: 2rem;
+    border-radius: 10px;
+  }

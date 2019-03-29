@@ -172,7 +172,7 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 10px 0 10px;
-  background: #e2dddd;
+  background: #f1eded;
 }
 .navigation h1 {
   font-size: 4rem;
@@ -186,6 +186,7 @@ body {
 }
 .navigation nav a {
   margin: 20px 18px 0;
+  color: black;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -198,6 +199,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .image img {
+  width: 100%;
+  height: auto;
 }
 .home .intro h2 {
   padding: 15px;
@@ -240,6 +245,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
+  width: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  height: 38px;
+  font-size: 2rem;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;

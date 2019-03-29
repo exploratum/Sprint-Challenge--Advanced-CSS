@@ -4,6 +4,14 @@
 
   .intro {
 
+    .image {
+      // width: 100%;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
     h2 {
       padding: 15px;
     }
@@ -56,10 +64,14 @@
       p {
         margin-bottom: 26px;
       }
-
+      //////////////////////////////////////////
+      //           calling custom buttom    
+      /////////////////////////////////////////         
       .btn {
+        .button-custom(100px, black, white);
       }
     }
+      ////////////////////////////////////////
 
     .walk-img {
       width: 46%;
